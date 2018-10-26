@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+      defaultZone: http://eureka-dev.com:7001/eureka/     #测试数据，这并不是eureka7001的地址
 
 ---
 server:
@@ -28,4 +28,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-test.com:7001/eureka/
+      defaultZone: http://eureka-test.com:7001/eureka/    #测试数据，这并不是eureka7001的地址
